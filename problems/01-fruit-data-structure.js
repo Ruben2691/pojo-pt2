@@ -59,23 +59,30 @@ function fruitNames(fruits) {
     }
     return arr
 }
-console.log(fruitNames(fruits));
+// console.log(fruitNames(fruits));
 // [ 'Apple', 'Apricot', 'Banana', 'Blackberry', 'Blueberry', 'Cherry', 'Durian',
     // 'Fig', 'Gooseberry', 'Grapes', 'GreenApple', 'Guava', 'Kiwi', 'Lemon',
     // 'Lime', 'Lingonberry', 'Lychee', 'Mango', 'Melon', 'Orange', 'Papaya',
     // 'Passionfruit', 'Pear', 'Persimmon', 'Pineapple', 'Plum', 'Raspberry',
-    // 'Strawberry', 'Tomato', 'Umbu', 'Watermelon' ];
-/* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
-NOTE: Call a function you previously wrote as a helper function.
+    // 'Strawberry', 'Tomato', 'Umbu', 'Watermelon' ];.
 
-// console.log(getFruitKeys(fruits));
+
 // // [ 'genus', 'name', 'id', 'family', 'order', 'nutritions' ];
+/* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
 */
 
+
+//NOTE: Call a function you previously wrote as a helper function
+//return fun
 function getFruitKeys(fruits) {
     // Your code here
+    for(let i = 0; i < fruits.length; i++){
+     return  Object.keys(fruits[i])
+
 }
 
+}
+// console.log(getFruitKeys(fruits));
 
 /* 06. `getNutritionsKeys()` - Return a list of all of the keys within each
 "nutritions" object.
