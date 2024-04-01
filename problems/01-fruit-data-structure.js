@@ -10,14 +10,14 @@ function firstFruitObject(fruits) {
    return fruits[0]
 }
 
-console.log(firstFruitObject(fruits));
+// console.log(firstFruitObject(fruits));
 // { genus: 'Malus', name: 'Apple', id: 6, family: 'Rosaceae', order:
 // 'Rosales', nutritions: { carbohydrates: 11.4, protein: 0.3, fat: 0.4,
 // calories: 52, sugar: 10.3 } }
 
 /* 02. `lastFruitObject()` - Return the last object in the fruits array
 
-console.log(lastFruitObject(fruits));
+
 // { genus: 'Citrullus', name: 'Watermelon', id: 25, family: 'Cucurbitaceae',
 // order: 'Cucurbitales', nutritions: { carbohydrates: 8, protein: 0.6, fat:
 // 0.2, calories: 30, sugar: 6 } }
@@ -25,8 +25,9 @@ console.log(lastFruitObject(fruits));
 
 function lastFruitObject(fruits) {
     // Your code here
+return fruits[fruits.length -1]
 }
-
+console.log(lastFruitObject(fruits));
 
 /* 03. `indexFruitObject()` - Return one object at the given index from the
 fruits array. The function should have two parameters, the array and the
