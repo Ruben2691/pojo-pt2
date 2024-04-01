@@ -43,24 +43,28 @@ function indexFruitObject(index, fruits) {
     // Your code here
 
         return fruits[index];
-    
+
 }
 
-console.log(indexFruitObject(17, fruits));
+// console.log(indexFruitObject(17, fruits));
 /* 04. `fruitNames()` - Return a list of all of the fruit names
 
-console.log(fruitNames(fruits));
-// [ 'Apple', 'Apricot', 'Banana', 'Blackberry', 'Blueberry', 'Cherry', 'Durian',
-    'Fig', 'Gooseberry', 'Grapes', 'GreenApple', 'Guava', 'Kiwi', 'Lemon',
-    'Lime', 'Lingonberry', 'Lychee', 'Mango', 'Melon', 'Orange', 'Papaya',
-    'Passionfruit', 'Pear', 'Persimmon', 'Pineapple', 'Plum', 'Raspberry',
-    'Strawberry', 'Tomato', 'Umbu', 'Watermelon' ];
+
 */
 
 function fruitNames(fruits) {
-    // Your code here
+    let arr = []
+    for(let ele of fruits){
+        arr.push(ele.name)
+    }
+    return arr
 }
-
+console.log(fruitNames(fruits));
+// [ 'Apple', 'Apricot', 'Banana', 'Blackberry', 'Blueberry', 'Cherry', 'Durian',
+    // 'Fig', 'Gooseberry', 'Grapes', 'GreenApple', 'Guava', 'Kiwi', 'Lemon',
+    // 'Lime', 'Lingonberry', 'Lychee', 'Mango', 'Melon', 'Orange', 'Papaya',
+    // 'Passionfruit', 'Pear', 'Persimmon', 'Pineapple', 'Plum', 'Raspberry',
+    // 'Strawberry', 'Tomato', 'Umbu', 'Watermelon' ];
 /* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
 NOTE: Call a function you previously wrote as a helper function.
 
