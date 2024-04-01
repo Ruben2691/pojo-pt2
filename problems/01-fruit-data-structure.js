@@ -3,17 +3,17 @@ const fruits = require('../fruit-data')
 
 /* 01. `firstFruitObject()` - Return the first object in the fruits array
 
+
+*/
+
+function firstFruitObject(fruits) {
+   return fruits[0]
+}
+
 console.log(firstFruitObject(fruits));
 // { genus: 'Malus', name: 'Apple', id: 6, family: 'Rosaceae', order:
 // 'Rosales', nutritions: { carbohydrates: 11.4, protein: 0.3, fat: 0.4,
 // calories: 52, sugar: 10.3 } }
-*/
-
-function firstFruitObject(fruits) {
-    // Your code here 
-}
-
-
 
 /* 02. `lastFruitObject()` - Return the last object in the fruits array
 
@@ -24,7 +24,7 @@ console.log(lastFruitObject(fruits));
 */
 
 function lastFruitObject(fruits) {
-    // Your code here 
+    // Your code here
 }
 
 
@@ -39,7 +39,7 @@ console.log(indexFruitObject(17, fruits));
 */
 
 function indexFruitObject(index, fruits) {
-    // Your code here 
+    // Your code here
 }
 
 
@@ -54,7 +54,7 @@ console.log(fruitNames(fruits));
 */
 
 function fruitNames(fruits) {
-    // Your code here 
+    // Your code here
 }
 
 /* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
@@ -65,7 +65,7 @@ NOTE: Call a function you previously wrote as a helper function.
 */
 
 function getFruitKeys(fruits) {
-    // Your code here 
+    // Your code here
 }
 
 
@@ -79,7 +79,7 @@ console.log(getNutritionsKeys(fruits));
 */
 
 function getNutritionsKeys(fruits) {
-    // Your code here 
+    // Your code here
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
